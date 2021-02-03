@@ -19,7 +19,7 @@ resource "azurerm_app_service" "example" {
 
    site_config {
     app_command_line = ""
-    linux_fx_version = "DOCKER|index.docker.io.requarks/wiki:latest"
+    linux_fx_version = "DOCKER|requarks/wiki:2"
   }
 
 
@@ -32,6 +32,9 @@ resource "azurerm_app_service" "example" {
     "DB_USER" = "${var.postgresql-admin-login}@pgsql${var.app}"
     "DB_PASS" =  var.postgresql-admin-password
     "DB_NAME" = "postgres"
+    "DB_SSL" = "true"
+    "WEBSITE_AUTH_DISABLE_IDENTITY_FLOW" = "true"
+    "NODE_OPTIONS" = "--max-http-header-size=81920"
   }
 
 depends_on = [azurerm_postgresql_server.example]
