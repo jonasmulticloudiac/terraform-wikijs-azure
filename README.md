@@ -1,7 +1,11 @@
-# terraform-wikijs-azure
-* Pré-requesitos:
-  - Estar com as credenciais da sua conta exportadas no seu ambiente ""
-  - Neste link http://bit.ly/3jfMUwZ realizei outro projeto usando kubernetes, onde compartilho a forma usada para obter credenciais da Azure.
-    
-## Provisionamento app wikijs + postgres + app-serviceplan  -regras de acesso na azure 
+## Provisionamento com Terraform { app wikijs + postgres } na azure 
   - Confira o video contextualizadno o resultado obtido http://bit.ly/3att5hC
+  
+  __Pré-requesitos:__
+> Estar com as credenciais da sua conta exportadas no seu ambiente
+
+> Resumo deste cenario pode ser visto seguindo os links abaixo
+
+PArte 01 | Parte 02 | Parte 03
+------------ | ------------- | -------------
+ http://bit.ly/3jfMUwZ | http://bit.ly/3oO4Tvx | https://bit.ly/36HQElT
