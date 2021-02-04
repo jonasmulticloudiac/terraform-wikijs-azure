@@ -1,5 +1,5 @@
 ## Provisionamento com Terraform { app wikijs + postgres } na azure 
-  - Confira o video contextualizadno o resultado obtido http://bit.ly/3att5hC
+  - Confira o video contextualizando o resultado obtido http://bit.ly/3att5hC
   
   __Pré-requesitos:__
 > Estar com as credenciais da sua conta exportadas no seu ambiente
